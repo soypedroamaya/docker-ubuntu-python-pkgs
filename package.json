@@ -1,0 +1,16 @@
+{
+  "name": "test_pkg_1",
+  "version": "0.0.1",
+  "description": "descripcion de test_pkg_1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "author": "Pedro Amaya",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1" 
+  }
+}
