@@ -22,6 +22,8 @@ pip install flake8
 pip install pytest
 pip install black
 pip install -U commitizen
+pip install sphinx
+pip install sphinx-rtd-theme
 
 deactivate
 *******************
@@ -64,7 +66,7 @@ y ya podriamos correr los test asi:
 
 npm run test
 
-esto ejecutaria: pytest
+esto ejecutaria: pytest 
 
 instalamos dentro de nuestro enviroment:
 
