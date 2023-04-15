@@ -19,6 +19,9 @@ npx husky add .husky/pre-commit "npx lint-staged"
 python3 -m venv experimental
 source experimental/bin/activate
 pip install flake8
+pip install pytest
+pip install black
+
 
 deactivate
 *******************
@@ -62,3 +65,19 @@ y ya podriamos correr los test asi:
 npm run test
 
 esto ejecutaria: pytest
+
+instalamos dentro de nuestro enviroment:
+
+vscode extension -> Conventional Commits de vivaxy
+
+npm install --save-dev @commitlint/cli @commitlint/config-conventional
+
+creamos el archivo commitlint.config.js
+
+le ponemos esto adentro:
+
+module.exports = {
+    extends: ["@commitlint/config-conventional"],
+}
+
+npx husky add .husky/commit-msg "npx --no -- commitlint --edit ${1}"

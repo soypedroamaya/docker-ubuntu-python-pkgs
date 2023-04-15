@@ -1,2 +1,4 @@
 node_modules
 experimental
+.pytest_cache
+src/__pycache__
