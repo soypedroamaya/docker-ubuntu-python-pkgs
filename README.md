@@ -30,7 +30,7 @@ source ~/.bashrc
 nvm --version
 nvm list
 node --version
-nvm install 14.2
+nvm install --lts
 
 *******************
 
