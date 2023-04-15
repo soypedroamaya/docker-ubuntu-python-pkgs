@@ -20,6 +20,7 @@ python3 -m venv experimental
 source experimental/bin/activate
 pip install flake8
 
+deactivate
 *******************
 instalar nvm con
 
@@ -36,3 +37,28 @@ nvm install --lts
 
 git add .
 git commit -am 'initial commit'
+
+creamos el archivo .flake8
+y le ponemos este contenido adentro.
+
+[flake8]
+max-line-length = 80
+exclude = .git,__pycache__,build,dist
+ignore = E203, E266, E501, W503
+
+npx husky add .husky/pre-push "npm run test"
+
+luego modificamos nuestro package.json y quedaria asi:
+
+"scripts": {
+    "test": "pytest",
+    "prepare": "husky install"
+  },
+
+agregamos un archivo sum_test.py
+
+y ya podriamos correr los test asi:
+
+npm run test
+
+esto ejecutaria: pytest
