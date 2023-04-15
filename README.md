@@ -21,7 +21,7 @@ source experimental/bin/activate
 pip install flake8
 pip install pytest
 pip install black
-
+pip install -U commitizen
 
 deactivate
 *******************
@@ -82,4 +82,4 @@ module.exports = {
 
 npx husky add .husky/commit-msg "npx --no -- commitlint --edit ${1}"
 
-ya luego, nos deberia de dejar hacer commit, pero unicamente si seguimos los conventional-commit standard
+ya luego, nos deberia de dejar hacer commit, pero unicamente si seguimos los conventional-commit standard (no me funciono con la extension, me dejo hacerlo pero manualmente)
