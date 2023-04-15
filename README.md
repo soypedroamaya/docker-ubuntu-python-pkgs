@@ -81,3 +81,5 @@ module.exports = {
 }
 
 npx husky add .husky/commit-msg "npx --no -- commitlint --edit ${1}"
+
+ya luego, nos deberia de dejar hacer commit, pero unicamente si seguimos los conventional-commit standards
