@@ -1,4 +1,4 @@
-from sum import sum_numbers
+from src.bunit.concept.domain.sum import sum_numbers
 
 
 def test_sum_numbers():

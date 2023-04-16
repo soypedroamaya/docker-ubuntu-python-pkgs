@@ -1,4 +1,13 @@
 node_modules
 experimental
 .pytest_cache
+
 src/__pycache__
+src/bunit/__pycache__
+src/bunit/concept/__pycache__
+src/bunit/concept/domain/__pycache__
+
+tests/__pycache__
+tests/bunit/__pycache__
+tests/bunit/concept/__pycache__
+tests/bunit/concept/domain/__pycache__
