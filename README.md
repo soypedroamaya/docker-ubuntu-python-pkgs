@@ -2,7 +2,7 @@
 
 
 npm init
-git init
+git init 
 
 crear .gitignore y agregar "node_modules y experimental"
 
