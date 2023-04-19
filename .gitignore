@@ -1,6 +1,7 @@
 node_modules
-experimental
-.pytest_cache
 
+exp
+
+.pytest_cache
 __pycache__/
 *.pyc

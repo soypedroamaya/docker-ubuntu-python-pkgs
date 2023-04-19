@@ -1,0 +1,6 @@
+flake8
+pytest
+black
+commitizen
+sphinx
+sphinx-rtd-theme
