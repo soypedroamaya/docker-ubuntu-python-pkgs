@@ -30,6 +30,9 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Print directory content
+        run: ls -R
+
       # Runs a set of commands using the runners shell
       - name: install python packages
         run: |
