@@ -4,3 +4,4 @@ black
 commitizen
 sphinx
 sphinx-rtd-theme
+myst-parser
