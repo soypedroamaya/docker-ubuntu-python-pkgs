@@ -34,7 +34,7 @@ jobs:
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
-          pip install -r requeriments.txt
+          pip install -r ../../requeriments.txt
 
       # Runs a single command using the runners shell
       - name: Run a python script
