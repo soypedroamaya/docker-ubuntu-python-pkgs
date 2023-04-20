@@ -22,6 +22,9 @@
 8. bajamos las librerias necesarias y que estan segun la rama
     - pip install --no-cache-dir -r requirements.txt
 
+    - (opcional) => pip freeze > requirements.txt
+    nota: para sacar una lista con las versiones exactas de las librerias que ocupa ese entorno.
+
 9. creamos las librerias externas
     - npm install
 
@@ -38,7 +41,7 @@ mkdir docs -> en la raiz del proyecto
 
 cd docs
 
-sphinx-quickstart -> llenar las preguntas
+sphinx-quickstart -> llenar las preguntas (aqui me quede...)
 
 cd .. -> te salis hasta el directorio raiz
 
