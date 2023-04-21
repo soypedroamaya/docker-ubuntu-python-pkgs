@@ -51,7 +51,7 @@ cd docs
 make html
 
 meter en un browser:
-file:///Volumes/MicroSD4GB/Codigo/public/soypedroamaya/docker-ubuntu-python-pkgs/docs/_build/html/index.html
+file:///Volumes/MicroSD4GB/Codigo/public/soypedroamaya/docker-ubuntu-python-pkgs/docs/build/html/index.html
 
 ----- index.md ----
 
