@@ -1,5 +1,7 @@
 [tool.commitizen]
-version = "0.0.0" # should be your current semver version
+name = "cz_conventional_commits"
+version = "0.0.1"
+tag_format = "$version"
 version_files = [
     "src/__version__.py:version",
     "README.md"
