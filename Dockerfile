@@ -14,7 +14,7 @@ RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | b
     && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" \
     && [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
-# Instala Node.js 14.17.6
+# Instala Node.js 18
 RUN export NVM_DIR="$HOME/.nvm" \
     && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" \
     && [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" \
@@ -32,13 +32,6 @@ RUN export NVM_DIR="$HOME/.nvm" \
 #RUN npx husky add .husky/pre-commit "npx lint-staged"
 #RUN npx husky add .husky/pre-push "npm run test"
 #RUN npx husky add .husky/commit-msg "npx --no -- commitlint --edit ${1}"
-
-# aqui bajamos las dependencias de python
-#RUN python3 -m venv experimental
-#RUN source experimental/bin/activate
-
-# Empaqueta la librería
-# RUN python3 setup.py sdist bdist_wheel
 
 # Define el comando por defecto que se ejecutará al iniciar el contenedor
 CMD ["bash"]

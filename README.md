@@ -28,55 +28,16 @@
 9. creamos las librerias externas
     - npm install
 
-----------------------------------
-docker stop cnt-docker-ubuntu-python-pkgs
-docker rm cnt-docker-ubuntu-python-pkgs
-docker rmi img-docker-ubuntu-python-pkgs
-
-docker system prune --all --force --volumes
-
-
 ------- conf de sphinx ----
 mkdir docs -> en la raiz del proyecto
-
 cd docs
-
 sphinx-quickstart -> llenar las preguntas (aqui me quede...)
-
 cd .. -> te salis hasta el directorio raiz
-
 sphinx-apidoc -o docs .
-
 cd docs
+
+-- agregar la palabra "modules" en el archivo index.rst, en el area del toctree
+
 make html
-
 meter en un browser:
-file:///Volumes/MicroSD4GB/Codigo/public/soypedroamaya/docker-ubuntu-python-pkgs/docs/build/html/index.html
-
------ index.md ----
-
-# docker-ubuntu-python-pkgs
-
-docker-ubuntu-python-pkgs es un contenedor de librerias de **python**.
-
-```{warning}
-este proyecto esta aun en desarrollo
-```
-
-
----- conf.py ---
-import os
-import sys
-
-sys.path.insert(0, os.path.abspath(".."))
-
-# "sphinx.ext.todo" , "sphinx.ext.viewcode" , "sphinx.ext.autodoc", 
-
-extensions = ["myst_parser",]
-
-html_theme = 'sphinx_rtd_theme'
-
------
-
-
-----
+file:///Volumes/MicroSD4GB/Codigo/public/soypedroamaya/docker-ubuntu-python-pkgs/docs/_build/html/index.html
