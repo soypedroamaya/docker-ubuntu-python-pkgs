@@ -45,4 +45,4 @@ file:///Volumes/MicroSD4GB/Codigo/public/soypedroamaya/docker-ubuntu-python-pkgs
 
 -- commitizen
 primera vez
-    cz bump --yes --changelog
+    cz bump --yes --changelog 
