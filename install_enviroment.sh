@@ -1,3 +1,9 @@
+docker stop cnt-docker-ubuntu-python-pkgs
+docker rm cnt-docker-ubuntu-python-pkgs
+
+docker rmi img-docker-ubuntu-python-pkgs
+
+docker system prune --all --force --volumes
 
 docker build -t img-docker-ubuntu-python-pkgs .
 

@@ -1,0 +1,6 @@
+[tool.commitizen]
+version = "0.0.0" # should be your current semver version
+version_files = [
+    "src/__version__.py:version",
+    "README.md"
+]
