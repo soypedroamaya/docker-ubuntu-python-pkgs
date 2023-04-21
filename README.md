@@ -70,7 +70,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath(".."))
 
-# "sphinx.ext.todo" , "sphinx.ext.viewcode" , "sphinx.ext.autodoc" , 
+# "sphinx.ext.todo" , "sphinx.ext.viewcode" , "sphinx.ext.autodoc", 
 
 extensions = ["myst_parser",]
 
