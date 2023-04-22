@@ -26,6 +26,9 @@ RUN export NVM_DIR="$HOME/.nvm" \
 #RUN npm install -D husky lint-staged
 #RUN npm install --save-dev @commitlint/cli @commitlint/config-conventional
 
+#RUN npm install --save-dev @merkle-open/commitlint-conventional-changelog
+
+
 #RUN npm set-script prepare 'husky install'
 #RUN npm run prepare
 
