@@ -42,5 +42,13 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a python script
         run: pytest
+        
+      - name: Build HTML
+        run: | 
+          cd docs/
+          make html
+      - name: Run ghp-import
+        run: | 
+          ghp-import -n -p -f docs/_build/html
 
 # End of file
