@@ -6,7 +6,6 @@ Home-page: https://github.com
 Author: Pedro Amaya
 Author-email: soypedroamaya@gmail.com
 License: MIT
-Platform: UNKNOWN
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3.10
 Classifier: Operating System :: OS Independent
@@ -70,4 +69,3 @@ python3 -m pip install --upgrade twine
 python3 -m twine upload --repository pypi dist/*
 
 python3 -m twine upload --repository testpypi dist/*
-
