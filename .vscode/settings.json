@@ -1,13 +1,15 @@
 {
     "hide-files.files": [
-        "tests/bunit/concept/domain/__pycache__",
-        "tests/bunit/concept/__pycache__",
-        "tests/bunit/__pycache__",
+        "tests/soypedroamaya/bunit/concept/domain/__pycache__",
+        "tests/soypedroamaya/bunit/concept/__pycache__",
+        "tests/soypedroamaya/bunit/__pycache__",
+        "tests/soypedroamaya/__pycache__",
         "tests/__pycache__",
-        "src/bunit/concept/domain/__pycache__",
-        "src/bunit/concept/__pycache__",
-        "src/bunit/__pycache__",
         "src/__pycache__",
+        "src/soypedroamaya/__pycache__",
+        "src/soypedroamaya/bunit/concept/domain/__pycache__",
+        "src/soypedroamaya/bunit/concept/__pycache__",
+        "src/soypedroamaya/bunit/__pycache__",
         ".pytest_cache"
     ],
     "files.exclude": {
@@ -17,14 +19,16 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
-        "tests/bunit/concept/domain/__pycache__": true,
-        "tests/bunit/concept/__pycache__": true,
-        "tests/bunit/__pycache__": true,
+        "tests/soypedroamaya/bunit/concept/domain/__pycache__": true,
+        "tests/soypedroamaya/bunit/concept/__pycache__": true,
+        "tests/soypedroamaya/bunit/__pycache__": true,
+        "tests/soypedroamaya/__pycache__": true,
         "tests/__pycache__": true,
-        "src/bunit/concept/domain/__pycache__": true,
-        "src/bunit/concept/__pycache__": true,
-        "src/bunit/__pycache__": true,
         "src/__pycache__": true,
+        "src/soypedroamaya/__pycache__": true,
+        "src/soypedroamaya/bunit/concept/domain/__pycache__": true,
+        "src/soypedroamaya/bunit/concept/__pycache__": true,
+        "src/soypedroamaya/bunit/__pycache__": true,
         ".pytest_cache": true
     }
 }
